@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="F:\FakeCall\smadslib_New_v3\assets"><file name="adspolicy.json" path="F:\FakeCall\smadslib_New_v3\assets\adspolicy.json"/></source></dataSet><dataSet config="debug"><source path="F:\FakeCall\smadslib_New_v3\build-types\debug\assets"/></dataSet></merger>

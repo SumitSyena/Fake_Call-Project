@@ -1,0 +1,217 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="12"
+    android:orientation="vertical"
+    android:background="@drawable/menubg">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="4.6"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/sali8"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/sali_fs8"/>
+            <View
+                android:layout_below="@+id/sali8"
+                android:id="@+id/pathview"
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <EditText
+                android:singleLine="true"
+                android:id="@+id/setcallername"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/co"
+                android:hint="Enter Name"
+                android:layout_below="@+id/pathview"
+                android:layout_centerHorizontal="true"/>
+            <ImageView
+                android:id="@+id/setcontectpic2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pathview"
+                android:src="@drawable/contacts"
+                android:layout_toRightOf="@+id/setcallername"/>
+            <View
+                android:layout_below="@+id/setcallername"
+                android:id="@+id/pathview1"
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <EditText
+                android:maxLength="12"
+                android:id="@+id/setcallernumber"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/pathview1"
+                android:hint="Enter mobile number"
+                android:inputType="phone"
+                android:background="@drawable/co"
+                android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="3.4"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/setcallerimage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:background="@drawable/s2"></ImageView>
+            <Button
+                android:id="@+id/upload"
+                android:layout_marginTop="20dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/upload"
+                android:layout_alignParentLeft="true" />
+            <Button
+                android:id="@+id/camera"
+                android:layout_marginTop="20dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/camera"
+                android:layout_alignParentRight="true" />
+            <Button
+                android:id="@+id/backward"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/backward"
+                android:layout_alignParentLeft="true"/>
+            <Button
+                android:id="@+id/forward"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/forward"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true" />
+
+
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="4"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_gravity="center">
+
+
+            <Button
+                android:id="@+id/setvoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/set_voice"
+                android:layout_weight="1"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="5dp"/>
+
+            <Button
+                android:id="@+id/setvibration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/vibrate_on"
+                android:layout_weight="1"
+                android:visibility="gone"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="5dp"/>
+            <Button
+                android:id="@+id/setvibrationoff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/vibrate_off"
+                android:layout_weight="1"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="5dp"/>
+
+
+            <Button
+                android:id="@+id/settimer"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/set_timer"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"/>
+
+            />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/L1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            android:layout_below="@id/l1">
+
+            <Button
+                android:id="@+id/setringtone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/set_ringtone"
+                android:layout_weight="1"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="1dp"/>
+
+            <Button
+                android:id="@+id/calltime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/call_duration"
+                android:layout_toRightOf="@+id/setvoice"
+                android:layout_weight="1"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="1dp" />
+
+
+            <Button
+                android:id="@+id/selectphone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/callerimage"
+                android:background="@drawable/select_phone"
+                android:layout_toRightOf="@+id/vibrateon"
+                android:layout_weight="1"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="1dp"/>
+        </LinearLayout>
+        <Button
+
+            android:id="@+id/start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/save_and_continue"
+            android:layout_marginTop="10dp"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

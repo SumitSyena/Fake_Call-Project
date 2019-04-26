@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WaitingDots"><attr format="color" name="dotsColor"/><attr format="integer" name="period"/><attr format="integer" name="jumpHeight"/><attr format="boolean" name="autoplay"/></declare-styleable>
+    <!-- From: file:/F:/FakeCall/smadslib_New_v3/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">smadslib</string>
+    <string name="cancel_moreapps">Cancel</string>
+    <string name="exit_moreapps">Exit</string>
+    <string name="loading_text">Loading</string>
+    <string name="plzchkinter">please check your internet connection</string>
+    <string name="ratetext2">(5 Star : Best Rating)</string>
+    <!-- From: file:/F:/FakeCall/smadslib_New_v3/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme"> <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="RateTheme" parent="@android:style/Theme.Translucent.NoTitleBar">
+	    </style>
+    <style name="Theme.Transparent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+</resources>

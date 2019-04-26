@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gerllylayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/menubg" >
+
+    <view
+        android:id="@+id/gallery"
+        android:layout_width="fill_parent"
+        android:layout_height="250px"
+        android:layout_centerVertical="true"
+        android:layout_margin="5dip"
+        class="com.fakegirlfraind.grlyview.CircleGallery" />
+
+    <ImageView
+        android:id="@+id/chngimageselection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/gallery"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/slectyrf" />
+
+    <ImageView
+        android:id="@+id/selectionimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gallery"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/fackgf" />
+
+</RelativeLayout><!-- From: file:/F:/FakeCall/res/layout/gerlly.xml -->

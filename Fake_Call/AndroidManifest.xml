@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.racinggamelabs.fakecallgirlfriendboyfriend"
+    android:versionCode="4"
+    android:versionName="1.3">
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.SET_DEBUG_APP" />
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!--
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.prankspicalfakecall.Startmenuscreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.prankspicalfakecall.Menuactivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+
+        <activity
+            android:name="com.prankspicalfakecall.MainActivityFackCall"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+
+        <service android:name="com.prankspicalfakecall.FackCallServies" />
+
+        <activity
+            android:name="com.prankspicalfakecall.Incommingall"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prankspicalfakecall.ReciveCall"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prankspicalfakecall.MainActivity"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.prankspicalfakesma.MainActivityFackSma"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+
+        <service android:name="com.prankspicalfakesma.FacksmaServies" />
+
+        <activity
+            android:name="com.sensiblemobiles.ads.FullAddScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.sensiblemobiles.ads.WebViewActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.sm.moreappsbanner.BannerWebViewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.sensiblemobiles.moreapps.MoreAppsListView"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.fackgirlfraind.database.SQLiteDemoActivity"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.fackgirlfraind.database.DisplayImageActivity"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.fakegirlfraind.grlyview.GalleryViewActivity"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.sensiblemobiles.moreapps.WebViewActivity"
+            android:screenOrientation="portrait" />
+        <!-- StartApp activities integration -->
+        <activity
+            android:name="com.startapp.android.publish.list3d.List3DActivity"
+            android:theme="@android:style/Theme" />
+        <meta-data android:name="com.revmob.app.id" android:value="opy_your_RevMob_Media_ID_here"/>
+        <activity
+            android:name="com.startapp.android.publish.AppWallActivity"
+            android:theme="@android:style/Theme.Translucent" />
+        <!-- End of StartApp activities integration -->
+        <activity android:name="com.prankspicalfakecall.SelectPhoneActivity" />
+
+    </application>
+
+</manifest>

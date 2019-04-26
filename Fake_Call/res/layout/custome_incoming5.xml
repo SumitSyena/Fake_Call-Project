@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sbg5">
+    <com.prankspicalfakecall.RoundedImageview
+        android:id="@+id/callerimageincoming"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="96dp"/>
+    <View
+        android:layout_below="@+id/callerimageincoming"
+        android:id="@+id/pathview"
+        android:layout_width="match_parent"
+        android:layout_height="32dp" />
+    <TextView
+        android:textSize="30dp"
+        android:id="@+id/callername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pathview"
+        android:text="Lowson"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:textSize="30dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8355896520"
+        android:id="@+id/textView3"
+        android:layout_below="@id/callername" />
+    <ImageButton
+        android:id="@+id/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/a"
+        android:layout_marginLeft="32dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="64dp"/>
+   <ImageButton
+       android:id="@+id/decline"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+       android:layout_alignParentRight="true"
+    android:background="@drawable/d"
+    android:layout_marginRight="32dp"
+    android:layout_marginBottom="64dp"/>
+
+</RelativeLayout>

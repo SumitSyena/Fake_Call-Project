@@ -1,0 +1,198 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/menubg">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:id="@+id/sali8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/sali_fs8"/>
+
+                <EditText
+                    android:id="@+id/setcallername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter your name"
+                    android:layout_below="@+id/sali8"
+                    android:layout_centerHorizontal="true"/>
+                <ImageView
+                    android:id="@+id/setcontectpic2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/sali8"
+                    android:src="@drawable/contacts"
+                    android:layout_toRightOf="@+id/setcallername"/>
+
+                <EditText
+                    android:id="@+id/setcallernumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/setcallername"
+                    android:hint="Enter mobile number"
+                    android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="8.4"
+            android:orientation="vertical"
+            android:background="@drawable/image">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/upload"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/upload"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"/>
+                <Button
+                    android:id="@+id/camera"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/camera"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="5dp"/>
+                <Button
+                    android:id="@+id/backwaed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/backward"
+                    android:layout_below="@+id/upload"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="30dp"/>
+                <Button
+                    android:id="@+id/forward"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/forward"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/camera"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="30dp" />
+
+
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="2">
+
+            <LinearLayout
+                android:id="@+id/l1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:layout_gravity="center">
+
+
+                <Button
+                    android:id="@+id/setvoice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/set_voice"
+                    android:layout_weight="1"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="5dp"/>
+
+                <Button
+                    android:id="@+id/setvibration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/vibrate_on"
+                    android:layout_weight="1"
+                    android:visibility="gone"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="5dp"/>
+                <Button
+                    android:id="@+id/setvibrationoff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/vibrate_on"
+                    android:layout_weight="1"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="5dp"/>
+
+
+                <Button
+                    android:id="@+id/settimer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/set_timer"
+                    android:layout_weight="1"
+                    android:layout_marginTop="5dp"/>
+
+                />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/L1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3"
+                android:layout_below="@id/l1">
+
+                <Button
+                    android:id="@+id/setringtone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/set_ringtone"
+                    android:layout_weight="1"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="1dp"/>
+
+                <Button
+                    android:id="@+id/callduration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/call_duration"
+                    android:layout_toRightOf="@+id/setvoice"
+                    android:layout_weight="1"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="1dp"/>
+
+
+                <Button
+                    android:id="@+id/selectphone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/callerimage"
+                    android:background="@drawable/select_phone"
+                    android:layout_toRightOf="@+id/vibrateon"
+                    android:layout_weight="1"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="1dp"/>
+            </LinearLayout>
+            <Button
+                android:id="@+id/saveandcontinue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/save_and_continue"
+                android:layout_marginTop="5dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/F:/FakeCall/res/layout-xlarge/fackcallma.xml -->

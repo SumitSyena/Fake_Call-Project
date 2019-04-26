@@ -1,0 +1,40 @@
+-keep class null {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+-keep class com.prankspicalfakecall.Startmenuscreen { <init>(); }
+-keep class com.prankspicalfakecall.Menuactivity { <init>(); }
+-keep class com.prankspicalfakecall.MainActivityFackCall { <init>(); }
+-keep class com.prankspicalfakecall.FackCallServies { <init>(); }
+-keep class com.prankspicalfakecall.Incommingall { <init>(); }
+-keep class com.prankspicalfakecall.ReciveCall { <init>(); }
+-keep class com.prankspicalfakecall.MainActivity { <init>(); }
+-keep class com.prankspicalfakesma.MainActivityFackSma { <init>(); }
+-keep class com.prankspicalfakesma.FacksmaServies { <init>(); }
+-keep class com.sensiblemobiles.ads.FullAddScreen { <init>(); }
+-keep class com.sensiblemobiles.ads.WebViewActivity { <init>(); }
+-keep class com.sm.moreappsbanner.BannerWebViewActivity { <init>(); }
+-keep class com.sensiblemobiles.moreapps.MoreAppsListView { <init>(); }
+-keep class com.fackgirlfraind.database.SQLiteDemoActivity { <init>(); }
+-keep class com.fackgirlfraind.database.DisplayImageActivity { <init>(); }
+-keep class com.fakegirlfraind.grlyview.GalleryViewActivity { <init>(); }
+-keep class com.sensiblemobiles.moreapps.WebViewActivity { <init>(); }
+-keep class com.startapp.android.publish.list3d.List3DActivity { <init>(); }
+-keep class com.startapp.android.publish.AppWallActivity { <init>(); }
+-keep class com.prankspicalfakecall.SelectPhoneActivity { <init>(); }
+-keep class com.sm.ownsplash.OwnSplash { <init>(); }
+-keep class com.sm.fullAds.FullAdsTestActivity { <init>(); }
+-keep class com.sm.fullAds.FullAddScreen { <init>(); }
+-keep class com.sm.ads.RateUS { <init>(); }
+-keep class com.sm.banner.WebViewActivity { <init>(); }
+-keep class com.revmob.ads.fullscreen.FullscreenActivity { <init>(); }
+-keep class com.startapp.android.publish.FullScreenActivity { <init>(); }
+-keep class com.facebook.ads.InterstitialAdActivity { <init>(); }
+-keep class com.google.android.gms.ads.AdActivity { <init>(); }
+-keep class com.appnext.appnextsdk.DownloadService { <init>(); }
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+-keep public class * extends java.lang.annotation.Annotation {
+    *;
+}

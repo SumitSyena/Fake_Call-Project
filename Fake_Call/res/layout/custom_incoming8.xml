@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sbg8">
+    <com.prankspicalfakecall.RoundedImageview
+        android:visibility="gone"
+        android:id="@+id/callerimageincoming"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="64dp"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:visibility="gone"
+        android:layout_below="@+id/callerimageincoming"
+        android:id="@+id/callername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="James Brown"
+        />
+    <TextView
+        android:textSize="30dp"
+        android:inputType="phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="8355896520"
+        android:id="@+id/textView3"
+        android:layout_marginLeft="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="144dp"/>
+    <TextView
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="incaming call"
+        android:layout_alignParentBottom="true"
+        android:textColor="#FFF"
+        android:layout_marginBottom="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp" />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/cua9"
+        android:id="@+id/answer"
+        android:layout_margin="32dp"/>
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/cud9"
+        android:id="@+id/decline"
+        android:layout_alignParentRight="true"
+        android:layout_margin="32dp"
+        />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/incomingbg" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="10dp"
+        android:text="Sim 1"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="10dp"
+        android:text="Incoming call"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/callername"
+        android:layout_centerInParent="true"
+        android:text="991162697"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+/>
+
+    <com.prankspicalfakecall.RoundedImageview
+        android:id="@+id/callerimageincoming"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="64dp"
+        android:background="@drawable/htc_one_head_photo" />
+
+    <TextView
+        android:id="@+id/callername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/callerimageincoming"
+        android:layout_centerInParent="true"
+        android:text="Afroz Alam"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+ />
+
+    <ImageView
+        android:id="@+id/masage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="33dp"
+        android:src="@drawable/sms" />
+
+    <ImageView
+        android:id="@+id/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/masage"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_marginLeft="22dp"
+        android:src="@drawable/anwer" />
+
+    <ImageView
+        android:id="@+id/decline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/masage"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/dcline" />
+
+</RelativeLayout><!-- From: file:/F:/FakeCall/res/layout/incomingall.xml -->

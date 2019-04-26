@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dots="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4863A0"
+    tools:context=".OwnSplash" >
+
+    <TextView
+        android:id="@+id/appname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/app_name"
+        android:textColor="@android:color/white"
+        android:textSize="40sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/appname"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/loading_text"
+            android:textColor="#D1C4E9"
+            android:textSize="25sp" />
+
+        <com.sm.ownsplash.DotsTextView
+            android:id="@+id/dots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#D1C4E9"
+            android:textSize="45sp"
+            dots:autoplay="false"
+            dots:period="1000" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/appicon"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_above="@+id/appname"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/icon" />
+
+</RelativeLayout><!-- From: file:/F:/FakeCall/smadslib_New_v3/res/layout/waitingdot.xml --><!-- From: file:/F:/FakeCall/smadslib_New_v3/build/intermediates/bundles/debug/res/layout/waitingdot.xml -->

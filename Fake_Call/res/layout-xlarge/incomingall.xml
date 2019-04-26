@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/incomingbg" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="10dp"
+        android:text="Sim 1"
+        android:textSize="60dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+       />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="10dp"
+        android:text="Incoming call"
+          android:textSize="60dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+ />
+
+    <ImageView
+        android:id="@+id/masage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="77dp"
+        android:src="@drawable/sms" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/callername"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="991162697"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/callerimageincoming"
+        android:layout_width="fill_parent"
+        android:layout_height="400dp"
+        android:layout_above="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/htc_one_head_photo" />
+
+    <ImageView
+        android:id="@+id/answer"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_alignBottom="@+id/decline"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="53dp"
+        android:src="@drawable/dcline" />
+
+    <ImageView
+        android:id="@+id/decline"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_above="@+id/masage"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_marginLeft="22dp"
+        android:src="@drawable/anwer" />
+
+    <TextView
+        android:id="@+id/callername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/answer"
+        android:layout_marginBottom="5dp"
+        android:layout_centerHorizontal="true"
+        android:text="Afroz Alam"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50dp" />
+
+</RelativeLayout>

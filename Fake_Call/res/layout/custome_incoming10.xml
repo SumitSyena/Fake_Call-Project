@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cb10">
+
+    <TextView
+        android:textSize="30dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/callername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Radhika"
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true"
+        />
+    <TextView
+        android:textSize="30dp"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8355896520"
+        android:id="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/callername"
+        />
+    <TextView
+        android:textSize="30dp"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="pending intent incoming"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView3"
+        android:layout_marginTop="32dp"
+        />
+    <com.prankspicalfakecall.RoundedImageview
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@id/callerimageincoming"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/answer"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/cua10"
+        android:layout_marginLeft="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="32dp"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/decline"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/cud10"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="32dp"/>
+
+
+</RelativeLayout>

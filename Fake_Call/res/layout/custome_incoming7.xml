@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sbg7">
+    <ImageView
+        android:id="@+id/callerimageincoming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="32dp"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/htc_one_head_photo"/>
+
+    <TextView
+        android:textSize="30dp"
+        android:layout_below="@+id/callerimageincoming"
+        android:id="@+id/callername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="James Brown"
+        />
+    <TextView
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8355896520"
+        android:id="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/callername"
+        />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/hid"
+        android:id="@+id/decline"
+        />
+    />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/hia"
+        android:id="@+id/answer"
+        android:layout_alignParentRight="true"
+        />
+
+</RelativeLayout>

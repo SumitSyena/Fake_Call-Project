@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="F:\FakeCall\build\intermediates\exploded-aar\FakeCall\smadslib_New_v3\unspecified\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="8ec63ae5966e69f690db00137546d6c2644bc73e">
+        <dex dex="F:\FakeCall\build\intermediates\pre-dexed\debug\classes-fadd332f78114401e303de9353c056a1d416e490.jar" />
+    </item>
+    <item
+        jar="F:\SDK\extras\android\m2repository\com\android\support\support-annotations\24.0.0-alpha1\support-annotations-24.0.0-alpha1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="b8062546971a3d196343232a19a3c0016272ba47">
+        <dex dex="F:\FakeCall\build\intermediates\pre-dexed\debug\support-annotations-24.0.0-alpha1-78bb3684d35234dc4c95e0524aeb17132a85faac.jar" />
+    </item>
+    <item
+        jar="F:\FakeCall\libs\smadslib_new_v3.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="161b733f13d737beb4b5f576fc874658dd938427">
+        <dex dex="F:\FakeCall\build\intermediates\pre-dexed\debug\smadslib_new_v3.1-d23a93ff70235e575b50c76bb71a15838f2772ab.jar" />
+    </item>
+    <item
+        jar="F:\FakeCall\build\intermediates\exploded-aar\FakeCall\smadslib_New_v3\unspecified\libs\appnextbannerads.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="dccc0d8ec7a5c1080a81af54097c0c93a5fbc5d4">
+        <dex dex="F:\FakeCall\build\intermediates\pre-dexed\debug\appnextbannerads-1ee9c20ce418351a661a88b372ffb4e2a89149f9.jar" />
+    </item>
+    <item
+        jar="F:\FakeCall\build\intermediates\exploded-aar\FakeCall\smadslib_New_v3\unspecified\libs\AudienceNetwork.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="b8bde2ab78ff1778042f3d7af6e19fa6659bb066">
+        <dex dex="F:\FakeCall\build\intermediates\pre-dexed\debug\AudienceNetwork-7c8d199f9535705f92dfcd6147a3345d06238f5e.jar" />
+    </item>
+    <item
+        jar="F:\FakeCall\build\intermediates\exploded-aar\FakeCall\smadslib_New_v3\unspecified\libs\StartAppInApp-2.4.15.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="8dcfec7b54d8b0f349a09f3758e536f3b8c08c2b">
+        <dex dex="F:\FakeCall\build\intermediates\pre-dexed\debug\StartAppInApp-2.4.15-45e7dc7933dac4392580ab88bb7a89092d52e902.jar" />
+    </item>
+    <item
+        jar="F:\FakeCall\build\intermediates\exploded-aar\FakeCall\google-play-services_lib\unspecified\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="df6a6433a39281ef5c7292888dbb6bc6177e1e2a">
+        <dex dex="F:\FakeCall\build\intermediates\pre-dexed\debug\classes-fdbbbded77f78d59cfbd9bf34a8ce275750d71eb.jar" />
+    </item>
+    <item
+        jar="F:\FakeCall\build\intermediates\exploded-aar\FakeCall\smadslib_New_v3\unspecified\libs\mediationsdk-6.3.7.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="c1a36878efaaa4a194e962ad66ce1c710a71d618">
+        <dex dex="F:\FakeCall\build\intermediates\pre-dexed\debug\mediationsdk-6.3.7-b46aa67b7303f0e8766756fe4a6176d2655ebcc0.jar" />
+    </item>
+    <item
+        jar="F:\FakeCall\build\intermediates\exploded-aar\FakeCall\google-play-services_lib\unspecified\libs\google-play-services.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="8d5f3fa25437d7d8ffdfb1a0f251adf682f14649">
+        <dex dex="F:\FakeCall\build\intermediates\pre-dexed\debug\google-play-services-5ab2f0e46e87f110bc88ea85d0d47c23f1f9a880.jar" />
+    </item>
+    <item
+        jar="F:\FakeCall\build\intermediates\exploded-aar\FakeCall\smadslib_New_v3\unspecified\libs\smadslib_basic.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="1433f93938673aadf9781ad7c984979f45946a0e">
+        <dex dex="F:\FakeCall\build\intermediates\pre-dexed\debug\smadslib_basic-a3e96cce338e5aa1883d9fa3765cb67e79ed867d.jar" />
+    </item>
+    <item
+        jar="F:\FakeCall\build\intermediates\exploded-aar\FakeCall\smadslib_New_v3\unspecified\libs\revmob-7.0.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="7ea2b0d3750d0973348b3bd60616f08d1618c895">
+        <dex dex="F:\FakeCall\build\intermediates\pre-dexed\debug\revmob-7.0.0-301406fa951404f91c45b3c46f0d59ddad70a23a.jar" />
+    </item>
+    <item
+        jar="F:\FakeCall\build\intermediates\exploded-aar\FakeCall\smadslib_New_v3\unspecified\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="ded9acc6a9792b8f1afc470f0c9cd36d178914cd">
+        <dex dex="F:\FakeCall\build\intermediates\pre-dexed\debug\android-support-v4-71a668083caf4f4583e23d018cdf92c0c932e4a6.jar" />
+    </item>
+    <item
+        jar="F:\FakeCall\build\intermediates\exploded-aar\FakeCall\smadslib_New_v3\unspecified\libs\android-async-http-1.4.6.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="a845a88238be0b5be9d238652c1bc0605ef91f52">
+        <dex dex="F:\FakeCall\build\intermediates\pre-dexed\debug\android-async-http-1.4.6-d9e92518ae088bce3ef3456bc62b807f80af9193.jar" />
+    </item>
+
+</items>

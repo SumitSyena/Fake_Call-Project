@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent">
+
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/l123"
+    android:gravity="right">
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:layout_marginRight="40dp">
+
+        <RadioButton
+            android:id="@+id/radioGroupButton0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:layout_gravity="right"
+            android:background="#feeedb"
+            android:text="10 Sec.Later"
+            />
+
+        <RadioButton
+            android:id="@+id/radioGroupButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="30 Sec.Later"
+            android:layout_margin="2dp"
+            android:layout_gravity="right"
+            android:background="#feeedb"
+            android:checked="false"/>
+
+        <RadioButton
+            android:id="@+id/radioGroupButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="#feeedb"
+            android:text="1 Min.Later"
+            android:layout_gravity="right"
+            android:checked="false" />
+
+        <RadioButton
+            android:id="@+id/radioGroupButton4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#feeedb"
+            android:text="15 Min.Later"
+            android:layout_gravity="right"
+            android:layout_margin="2dp"
+            android:checked="false"/>
+        <RadioButton
+            android:id="@+id/radioGroupButton5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp"
+            android:background="#feeedb"
+            android:text="30 Min.Later"
+            android:layout_gravity="right"
+            android:checked="false"/>
+    </RadioGroup>
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/l123"
+    android:gravity="center">
+
+
+    <Button
+        android:id="@+id/setcustamtime22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingBottom="20dp"
+        android:background="@drawable/customise_time"
+
+        android:layout_gravity="center"/>
+</LinearLayout>
+
+</RelativeLayout><!-- From: file:/F:/FakeCall/res/layout/set_timer_custom_alert.xml -->

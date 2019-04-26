@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">smadslib</string>
+    <string name="plzchkinter">please check your internet connection</string>
+    <string name="exit_moreapps">Exit</string>
+    <string name="cancel_moreapps">Cancel</string>
+    <string name="loading_text">Loading</string>
+    
+    <string name="ratetext2">(5 Star : Best Rating)</string>
+</resources>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/menubg" >
+
+    <EditText
+        android:id="@+id/setcallername"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/setcallernumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittextbg"
+         android:hint="Enter phone number"
+           android:inputType="number"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/writesms"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/setcallername"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittextbg"
+          android:hint="Message"
+        android:ems="10" />
+
+    <RadioGroup
+        android:id="@+id/radio_groupsmsplace"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/writesms"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/Inbox"
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:checked="false"
+            android:text="Inbox"
+            android:textColor="#f00" />
+
+        <RadioButton
+            android:id="@+id/Outbox"
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:text="Outbox"
+            android:textColor="#0f0" />
+
+        <RadioButton
+            android:id="@+id/Draftbox"
+            android:layout_width="140dp"
+            android:layout_height="30dp"
+            android:text="Draft"
+            android:textColor="#00f" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/setcallernumber"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/edittextbg"
+        android:ems="10"
+        android:inputType="phone" 
+         android:hint="Enter name">
+
+        <requestFocus />
+    </EditText>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/radio_groupsmsplace"
+        android:background="@drawable/line" />
+
+    <Button
+        android:id="@+id/setcustamtime21"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/grouptime"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/buttonr"
+        android:text="Custom Time" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/setcustamtime21"
+        android:background="@drawable/line" />
+
+    <Button
+        android:id="@+id/setringtone"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/buttonr"
+        android:text="Set Ringtone" />
+
+    <Button
+        android:id="@+id/vibratesms2"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/von" />
+
+    <Button
+        android:id="@+id/vibratesms"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/voff" />
+
+    <RadioGroup
+        android:id="@+id/grouptime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/fivesec"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bgradiob"
+             android:checked="false"
+            android:text="5 Sec" />
+
+        <RadioButton
+            android:id="@+id/tensec"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bgradiob"
+            android:text="15 Sec" />
+
+        <RadioButton
+            android:id="@+id/fiftysec"
+            android:layout_width="140dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bgradiob"
+            android:text="30 Sec" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/setcontectpic"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignRight="@+id/setcallernumber"
+        android:layout_alignTop="@+id/setcallernumber"
+        android:background="@drawable/contactpick_icon" />
+
+    <Button
+        android:id="@+id/start"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/setcustamtime21"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="29dp"
+        android:background="@drawable/buttonr"
+        android:text="Save" />
+
+</RelativeLayout>

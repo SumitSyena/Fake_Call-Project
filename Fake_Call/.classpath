@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry exported="true" kind="lib" path="libs/RDA_ADS_LIB_V1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/android-async-http-1.4.6.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/appnextbannerads_v1.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/StartAppInApp-2.4.11.jar"/>
+	<classpathentry exported="true" kind="lib" path="libs/moreapps_v7(1).jar"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

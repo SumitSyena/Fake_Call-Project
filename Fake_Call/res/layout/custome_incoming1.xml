@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sbg1">
+    <com.prankspicalfakecall.RoundedImageview
+        android:id="@+id/callerimageincoming"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        />
+    <TextView
+        android:textSize="30dp"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/callername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/callerimageincoming"
+        android:text="Radhika"
+        android:layout_centerVertical="true"
+        />
+    <TextView
+        android:textSize="30dp"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="8355896520"
+        android:id="@+id/textView3"
+        android:layout_marginLeft="50dp"
+        android:layout_below="@id/callername"
+        android:layout_toEndOf="@+id/callerimageincoming"/>
+    <ImageButton
+        android:background="@drawable/cud1"
+        android:id="@+id/decline"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        />
+    <ImageButton
+        android:id="@+id/answer"
+        android:background="@drawable/cua1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/decline"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/textView3"
+        />
+
+</RelativeLayout>

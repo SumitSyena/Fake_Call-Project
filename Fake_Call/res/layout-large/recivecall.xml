@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+ >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/keypais" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/imageView1"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/pick_activity_bg2" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/strip_green" />
+
+    <TextView
+        android:id="@+id/recivename"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="3dp"
+        android:textSize="30dp"
+        android:text="Ravi"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+  />
+
+    <TextView
+        android:id="@+id/revivenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/recivename"
+        android:layout_marginLeft="11dp"
+        android:textSize="20dp"
+        android:text="991162691"
+   />
+
+    <TextView
+        android:id="@+id/calltimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/revivenumber"
+        android:layout_marginRight="18dp"
+        android:layout_marginTop="10dp"
+        android:text="00:03:06"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+          android:textSize="20dp"/>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/image_strip" />
+
+    <ImageView
+        android:id="@+id/reciveccallerimage"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/imageView4"
+        android:layout_below="@+id/imageView3"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/user_image_icon" />
+
+    <ImageView
+        android:id="@+id/endbtn"
+        android:layout_width="158dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView1"
+        android:background="@drawable/btn_end_call_pickactivity" />
+
+</RelativeLayout>

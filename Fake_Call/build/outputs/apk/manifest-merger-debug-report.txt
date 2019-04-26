@@ -1,0 +1,342 @@
+-- Merging decision tree log ---
+manifest
+ADDED from AndroidManifest.xml:2:1
+	package
+		ADDED from AndroidManifest.xml:3:5
+	android:versionName
+		ADDED from AndroidManifest.xml:5:5
+	android:versionCode
+		ADDED from AndroidManifest.xml:4:5
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+	xmlns:android
+		ADDED from AndroidManifest.xml:2:11
+uses-sdk
+ADDED from AndroidManifest.xml:7:5
+MERGED from FakeCall:smadslib_New_v3:unspecified:8:5
+MERGED from FakeCall:google-play-services_lib:unspecified:20:5
+MERGED from FakeCall:google-play-services_lib:unspecified:20:5
+	android:targetSdkVersion
+		ADDED from AndroidManifest.xml:9:9
+	android:minSdkVersion
+		ADDED from AndroidManifest.xml:8:9
+		INJECTED from AndroidManifest.xml:0:0
+		INJECTED from AndroidManifest.xml:0:0
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:11:5
+	android:name
+		ADDED from AndroidManifest.xml:11:22
+uses-permission#android.permission.CAMERA
+ADDED from AndroidManifest.xml:12:5
+	android:name
+		ADDED from AndroidManifest.xml:12:22
+uses-permission#android.permission.VIBRATE
+ADDED from AndroidManifest.xml:13:5
+	android:name
+		ADDED from AndroidManifest.xml:13:22
+uses-feature#android.hardware.camera
+ADDED from AndroidManifest.xml:15:5
+	android:name
+		ADDED from AndroidManifest.xml:15:19
+uses-feature#android.hardware.camera.autofocus
+ADDED from AndroidManifest.xml:16:5
+	android:name
+		ADDED from AndroidManifest.xml:16:19
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from AndroidManifest.xml:18:5
+	android:name
+		ADDED from AndroidManifest.xml:18:22
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from AndroidManifest.xml:20:5
+MERGED from FakeCall:smadslib_New_v3:unspecified:13:5
+	android:name
+		ADDED from AndroidManifest.xml:20:22
+uses-permission#android.permission.INTERNET
+ADDED from AndroidManifest.xml:21:5
+MERGED from FakeCall:smadslib_New_v3:unspecified:12:5
+	android:name
+		ADDED from AndroidManifest.xml:21:22
+uses-permission#android.permission.GET_TASKS
+ADDED from AndroidManifest.xml:22:5
+	android:name
+		ADDED from AndroidManifest.xml:22:22
+uses-permission#android.permission.SET_DEBUG_APP
+ADDED from AndroidManifest.xml:23:5
+	android:name
+		ADDED from AndroidManifest.xml:23:22
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from AndroidManifest.xml:25:5
+	android:name
+		ADDED from AndroidManifest.xml:25:22
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from AndroidManifest.xml:26:5
+	android:name
+		ADDED from AndroidManifest.xml:26:22
+application
+ADDED from AndroidManifest.xml:32:5
+MERGED from FakeCall:smadslib_New_v3:unspecified:20:5
+MERGED from FakeCall:google-play-services_lib:unspecified:22:5
+MERGED from FakeCall:google-play-services_lib:unspecified:22:5
+	android:label
+		ADDED from AndroidManifest.xml:35:9
+	android:hardwareAccelerated
+		ADDED from FakeCall:smadslib_New_v3:unspecified:22:9
+	android:allowBackup
+		ADDED from AndroidManifest.xml:33:9
+	android:icon
+		ADDED from AndroidManifest.xml:34:9
+	android:theme
+		ADDED from AndroidManifest.xml:36:9
+activity#com.prankspicalfakecall.Startmenuscreen
+ADDED from AndroidManifest.xml:37:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:40:13
+	android:label
+		ADDED from AndroidManifest.xml:39:13
+	android:name
+		ADDED from AndroidManifest.xml:38:13
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:41:13
+action#android.intent.action.MAIN
+ADDED from AndroidManifest.xml:42:17
+	android:name
+		ADDED from AndroidManifest.xml:42:25
+category#android.intent.category.LAUNCHER
+ADDED from AndroidManifest.xml:44:17
+	android:name
+		ADDED from AndroidManifest.xml:44:27
+activity#com.prankspicalfakecall.Menuactivity
+ADDED from AndroidManifest.xml:47:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:50:13
+	android:label
+		ADDED from AndroidManifest.xml:49:13
+	android:name
+		ADDED from AndroidManifest.xml:48:13
+activity#com.prankspicalfakecall.MainActivityFackCall
+ADDED from AndroidManifest.xml:52:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:56:13
+	android:label
+		ADDED from AndroidManifest.xml:55:13
+	android:excludeFromRecents
+		ADDED from AndroidManifest.xml:54:13
+	android:name
+		ADDED from AndroidManifest.xml:53:13
+service#com.prankspicalfakecall.FackCallServies
+ADDED from AndroidManifest.xml:58:9
+	android:name
+		ADDED from AndroidManifest.xml:58:18
+activity#com.prankspicalfakecall.Incommingall
+ADDED from AndroidManifest.xml:60:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:64:13
+	android:label
+		ADDED from AndroidManifest.xml:63:13
+	android:excludeFromRecents
+		ADDED from AndroidManifest.xml:62:13
+	android:name
+		ADDED from AndroidManifest.xml:61:13
+activity#com.prankspicalfakecall.ReciveCall
+ADDED from AndroidManifest.xml:65:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:69:13
+	android:label
+		ADDED from AndroidManifest.xml:68:13
+	android:excludeFromRecents
+		ADDED from AndroidManifest.xml:67:13
+	android:name
+		ADDED from AndroidManifest.xml:66:13
+activity#com.prankspicalfakecall.MainActivity
+ADDED from AndroidManifest.xml:70:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:74:13
+	android:label
+		ADDED from AndroidManifest.xml:73:13
+	android:excludeFromRecents
+		ADDED from AndroidManifest.xml:72:13
+	android:name
+		ADDED from AndroidManifest.xml:71:13
+activity#com.prankspicalfakesma.MainActivityFackSma
+ADDED from AndroidManifest.xml:75:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:79:13
+	android:label
+		ADDED from AndroidManifest.xml:78:13
+	android:excludeFromRecents
+		ADDED from AndroidManifest.xml:77:13
+	android:name
+		ADDED from AndroidManifest.xml:76:13
+service#com.prankspicalfakesma.FacksmaServies
+ADDED from AndroidManifest.xml:81:9
+	android:name
+		ADDED from AndroidManifest.xml:81:18
+activity#com.sensiblemobiles.ads.FullAddScreen
+ADDED from AndroidManifest.xml:83:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:86:13
+	android:label
+		ADDED from AndroidManifest.xml:85:13
+	android:name
+		ADDED from AndroidManifest.xml:84:13
+activity#com.sensiblemobiles.ads.WebViewActivity
+ADDED from AndroidManifest.xml:87:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:90:13
+	android:label
+		ADDED from AndroidManifest.xml:89:13
+	android:name
+		ADDED from AndroidManifest.xml:88:13
+activity#com.sm.moreappsbanner.BannerWebViewActivity
+ADDED from AndroidManifest.xml:91:9
+MERGED from FakeCall:smadslib_New_v3:unspecified:53:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:93:13
+	android:label
+		ADDED from FakeCall:smadslib_New_v3:unspecified:55:13
+	android:name
+		ADDED from AndroidManifest.xml:92:13
+activity#com.sensiblemobiles.moreapps.MoreAppsListView
+ADDED from AndroidManifest.xml:94:9
+MERGED from FakeCall:smadslib_New_v3:unspecified:62:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:97:13
+	android:label
+		ADDED from AndroidManifest.xml:96:13
+	android:configChanges
+		ADDED from FakeCall:smadslib_New_v3:unspecified:64:13
+	android:name
+		ADDED from AndroidManifest.xml:95:13
+activity#com.fackgirlfraind.database.SQLiteDemoActivity
+ADDED from AndroidManifest.xml:98:9
+	android:label
+		ADDED from AndroidManifest.xml:100:13
+	android:name
+		ADDED from AndroidManifest.xml:99:13
+activity#com.fackgirlfraind.database.DisplayImageActivity
+ADDED from AndroidManifest.xml:101:9
+	android:label
+		ADDED from AndroidManifest.xml:104:13
+	android:excludeFromRecents
+		ADDED from AndroidManifest.xml:103:13
+	android:name
+		ADDED from AndroidManifest.xml:102:13
+activity#com.fakegirlfraind.grlyview.GalleryViewActivity
+ADDED from AndroidManifest.xml:105:9
+	android:label
+		ADDED from AndroidManifest.xml:108:13
+	android:excludeFromRecents
+		ADDED from AndroidManifest.xml:107:13
+	android:name
+		ADDED from AndroidManifest.xml:106:13
+activity#com.sensiblemobiles.moreapps.WebViewActivity
+ADDED from AndroidManifest.xml:109:9
+MERGED from FakeCall:smadslib_New_v3:unspecified:58:9
+	android:screenOrientation
+		ADDED from AndroidManifest.xml:111:13
+	android:configChanges
+		ADDED from FakeCall:smadslib_New_v3:unspecified:60:13
+	android:name
+		ADDED from AndroidManifest.xml:110:13
+activity#com.startapp.android.publish.list3d.List3DActivity
+ADDED from AndroidManifest.xml:113:9
+MERGED from FakeCall:smadslib_New_v3:unspecified:77:9
+	android:theme
+		ADDED from AndroidManifest.xml:115:13
+	android:name
+		ADDED from AndroidManifest.xml:114:13
+meta-data#com.revmob.app.id
+ADDED from AndroidManifest.xml:116:9
+	android:value
+		ADDED from AndroidManifest.xml:116:53
+	android:name
+		ADDED from AndroidManifest.xml:116:20
+activity#com.startapp.android.publish.AppWallActivity
+ADDED from AndroidManifest.xml:117:9
+MERGED from FakeCall:smadslib_New_v3:unspecified:80:9
+	android:configChanges
+		ADDED from FakeCall:smadslib_New_v3:unspecified:82:13
+	android:theme
+		ADDED from AndroidManifest.xml:119:13
+	android:name
+		ADDED from AndroidManifest.xml:118:13
+activity#com.prankspicalfakecall.SelectPhoneActivity
+ADDED from AndroidManifest.xml:121:9
+	android:name
+		ADDED from AndroidManifest.xml:121:19
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from FakeCall:smadslib_New_v3:unspecified:14:5
+	android:name
+		ADDED from FakeCall:smadslib_New_v3:unspecified:14:22
+activity#com.sm.ownsplash.OwnSplash
+ADDED from FakeCall:smadslib_New_v3:unspecified:25:9
+	android:label
+		ADDED from FakeCall:smadslib_New_v3:unspecified:27:13
+	android:name
+		ADDED from FakeCall:smadslib_New_v3:unspecified:26:13
+activity#com.sm.fullAds.FullAdsTestActivity
+ADDED from FakeCall:smadslib_New_v3:unspecified:29:9
+	android:label
+		ADDED from FakeCall:smadslib_New_v3:unspecified:31:13
+	android:name
+		ADDED from FakeCall:smadslib_New_v3:unspecified:30:13
+activity#com.sm.fullAds.FullAddScreen
+ADDED from FakeCall:smadslib_New_v3:unspecified:40:9
+	android:label
+		ADDED from FakeCall:smadslib_New_v3:unspecified:42:13
+	android:name
+		ADDED from FakeCall:smadslib_New_v3:unspecified:41:13
+activity#com.sm.ads.RateUS
+ADDED from FakeCall:smadslib_New_v3:unspecified:44:9
+	android:label
+		ADDED from FakeCall:smadslib_New_v3:unspecified:46:13
+	android:theme
+		ADDED from FakeCall:smadslib_New_v3:unspecified:47:13
+	android:name
+		ADDED from FakeCall:smadslib_New_v3:unspecified:45:13
+activity#com.sm.banner.WebViewActivity
+ADDED from FakeCall:smadslib_New_v3:unspecified:49:9
+	android:label
+		ADDED from FakeCall:smadslib_New_v3:unspecified:51:13
+	android:name
+		ADDED from FakeCall:smadslib_New_v3:unspecified:50:13
+activity#com.revmob.ads.fullscreen.FullscreenActivity
+ADDED from FakeCall:smadslib_New_v3:unspecified:67:9
+	android:configChanges
+		ADDED from FakeCall:smadslib_New_v3:unspecified:69:13
+	android:theme
+		ADDED from FakeCall:smadslib_New_v3:unspecified:70:13
+	android:name
+		ADDED from FakeCall:smadslib_New_v3:unspecified:68:13
+activity#com.startapp.android.publish.FullScreenActivity
+ADDED from FakeCall:smadslib_New_v3:unspecified:84:9
+	android:configChanges
+		ADDED from FakeCall:smadslib_New_v3:unspecified:86:13
+	android:theme
+		ADDED from FakeCall:smadslib_New_v3:unspecified:87:13
+	android:name
+		ADDED from FakeCall:smadslib_New_v3:unspecified:85:13
+activity#com.facebook.ads.InterstitialAdActivity
+ADDED from FakeCall:smadslib_New_v3:unspecified:111:9
+	android:configChanges
+		ADDED from FakeCall:smadslib_New_v3:unspecified:113:13
+	android:name
+		ADDED from FakeCall:smadslib_New_v3:unspecified:112:13
+activity#com.google.android.gms.ads.AdActivity
+ADDED from FakeCall:smadslib_New_v3:unspecified:115:9
+	android:configChanges
+		ADDED from FakeCall:smadslib_New_v3:unspecified:117:13
+	android:name
+		ADDED from FakeCall:smadslib_New_v3:unspecified:116:13
+meta-data#com.google.android.gms.version
+ADDED from FakeCall:smadslib_New_v3:unspecified:262:9
+MERGED from FakeCall:google-play-services_lib:unspecified:23:9
+MERGED from FakeCall:google-play-services_lib:unspecified:23:9
+	android:value
+		ADDED from FakeCall:smadslib_New_v3:unspecified:264:13
+	android:name
+		ADDED from FakeCall:smadslib_New_v3:unspecified:263:13
+service#com.appnext.appnextsdk.DownloadService
+ADDED from FakeCall:smadslib_New_v3:unspecified:266:9
+	android:name
+		ADDED from FakeCall:smadslib_New_v3:unspecified:266:18
