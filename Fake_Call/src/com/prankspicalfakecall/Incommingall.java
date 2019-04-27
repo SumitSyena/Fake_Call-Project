@@ -87,7 +87,7 @@ public class Incommingall extends Activity {
 		callernumber = (TextView) findViewById(R.id.textView3);
 		incomingcallerimage = (ImageView) findViewById(R.id.callerimageincoming);
 	/*	incomingcallerimage = (ImageView) findViewById(R.id.callerimageincoming);
-		Bitmap icon = BitmapFactory.decodeResource(getResources(),R.drawable.sali_fs8);
+		Bitmap icon = BitmapFactory.decodeResource(getResources(),R.drawable.sali_fs8);hklhlkjgfzdhjkhflkjkljflkjlkgxhgnk,bgxckj
 
 		incomingcallerimage.setImageBitmap(icon);
 */
